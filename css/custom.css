@@ -79,3 +79,22 @@
     transform-origin: right bottom;
   }
 }
+
+.block-pricing-9 .table th,
+		.block-pricing-9 .table td {
+			padding: 1.25rem;
+			vertical-align: middle;
+		}
+
+		@media (min-width: 767.98px) {
+			.content-wrap,
+			.block-pricing-9.table-responsive { overflow: visible; }
+
+			.block-pricing-9 .table-sticky-header {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				z-index: 2;
+				background-color: #DACA93;
+			}
+		}
